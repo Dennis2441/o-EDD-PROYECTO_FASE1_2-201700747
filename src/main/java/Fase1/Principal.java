@@ -30,12 +30,13 @@ public class Principal {
          opcion=numero.nextInt();
          regresar=0;
           regresar=0;
-          
+          int num=0;
           
           switch (opcion) {
               case 1:
                 System.out.println("1.Carga masiva de clientes");
                 System.out.println("2. Cantidad de ventanillas");
+                 num=numero.nextInt();
                 break;
               case 2:
                   break;
