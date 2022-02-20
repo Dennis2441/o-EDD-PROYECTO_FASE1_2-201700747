@@ -38,7 +38,7 @@ public class SinglyLinkedList {
     public void addNode(int data) {    
         //Create a new node    
         Node newNode = new Node(data); 
-        String hola;
+        String holas;
             
         //Checks if the list is empty    
         if(head == null) {    
